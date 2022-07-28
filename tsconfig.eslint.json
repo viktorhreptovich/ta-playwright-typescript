@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "allowJs": true
+  },
+  "include": [
+    "**/*.config.js",
+    "**/*.config.ts",
+    ".eslintrc.js",
+    "tests/*.ts",
+    "pages/*.ts",
+    "utils/*.ts",
+    "types/*.ts"
+  ]
+}
