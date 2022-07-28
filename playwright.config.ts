@@ -24,7 +24,7 @@ const config: PlaywrightTestConfig = {
     baseURL: 'http://the-internet.herokuapp.com',
     trace: 'on-first-retry',
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
   },
 };
